@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{ 
+    max-width: 100%;
+}
+html {
+    font-family: 'Livvic', sans-serif;
+    line-height: 1;
+}
+.container{
+    width: 350px;
+    margin: 32px auto 0px auto;
+    position: relative;
+}
+
+.panel{
+    background-color: darkblue;
+    padding: 16px 24px;
+    border-radius: 8px;
+    width: 100%;
+    top: 90px;
+    position: absolute;
+}
+h1 {
+    text-align: center;
+    color: pink;
+    margin-bottom: 24px;
+}
+.counter {
+    display: flex;
+    justify-content: space-between;
+}
+.xmas-stage {
+    position: relative;
+}
+
+.counter-block {
+   color: #ffffff;
+   text-align: center;
+   font-weight: 600;
+}
+.counter-block-number {
+    font-size: 48px;
+}
+.counter-block{
+    font-size: 20px;
+}
+.counter-block:last-child{
+    color: #f2AD41;
+}
+.gift{
+    position: absolute;
+    width: 120px;
+}
+.gift_1{
+    bottom: -5px;
+    right: 35px;
+}
+.gift_2 {
+    bottom: -10px;
+    left: 30px;
+}
+.ball{
+    position: absolute;
+    width: 65px;
+}
+.ball_1{
+    top: 260px;
+    left: 89px;
+}
+.ball_2 {
+    top: 260px;
+    left: 180px;
+}
+.merry-xmas{
+    position: absolute;
+    top: 500px;
+    left: 75px;
+    font-size: 30px;
+}
