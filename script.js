@@ -1,6 +1,6 @@
 const days = document.querySelector('#days')
 
-const xmasMs = new Date(2022, 11, 25).getTime()
+const xmasMs = new Date(2023, 11, 25).getTime()
 const msToDay =1000 * 60 * 60 * 24
 const msToHour = 1000 * 60 *60
 const msToMinutes = 1000 * 60
